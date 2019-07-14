@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:background="@drawable/hero"
+        android:id="@+id/imageView"
+        android:layout_width="164dp"
+        android:layout_height="82dp"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:id="@+id/textView"
+        android:layout_width="243dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Mohd Asif khan" />
+</LinearLayout>
